@@ -1,0 +1,13 @@
+<h2>Converter</h2>
+
+<form [formGroup]="conversionForm" (ngSubmit)="onSubmit(conversionForm.value)">
+  <div>
+    <label>Data</label>
+    <input id="conversionData" type="text" formControlName="conversionData">
+  </div>
+  <button id="convert-btn" class="button" type="submit">Convert</button>
+</form>
+
+<div id="result">
+    {{ result }}
+</div>
