@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/evrastil/converter-ui.svg?branch=master)](https://travis-ci.com/evrastil/converter-ui)
+
 # ConverterUi
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.1.
